@@ -1,0 +1,8 @@
+{
+  "interface_api_base_url": "",
+  "token": "",
+  "minio_api_base_url": "",
+  "minio_bucket": "",
+  "minio_username": "",
+  "minio_password": ""
+}

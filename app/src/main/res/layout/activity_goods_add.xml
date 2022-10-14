@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoodsAddActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.github.npcdw.store.view.SquareImageView
+            android:id="@+id/goods_add_image"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:contentDescription="@string/imgContentDescription"
+            android:scaleType="fitCenter"
+            android:src="@drawable/image_not_found" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:singleLine="false"
+                android:text="@string/goods_add_goods_name" />
+
+            <EditText
+                android:id="@+id/goods_add_goods_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:labelFor="@+id/goods_add_goods_name" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:singleLine="false"
+                android:text="@string/goods_add_price" />
+
+            <EditText
+                android:id="@+id/goods_add_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:labelFor="@+id/goods_add_price" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:singleLine="false"
+                android:text="@string/goods_add_unit" />
+
+            <EditText
+                android:id="@+id/goods_add_unit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:labelFor="@+id/goods_add_unit" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/goods_add_qrcode_text_des" />
+
+            <EditText
+                android:id="@+id/goods_add_qrcode_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="textCapCharacters"
+                android:labelFor="@+id/goods_add_qrcode_text" />
+
+            <Button
+                android:id="@+id/goods_add_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/goods_add_submit" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/goods_list_image"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:contentDescription="@string/imgContentDescription"
+            android:scaleType="fitCenter"
+            android:src="@drawable/image_not_found" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/goods_list_goods_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/goods_detail_goods_name"
+                android:textAlignment="textEnd" />
+
+            <TextView
+                android:id="@+id/goods_list_goods_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/goods_detail_goods_price"
+                android:textAlignment="textEnd"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="40sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_red_light">
+
+        <TextView
+            android:id="@+id/goods_list_goods_delete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/goods_list_item_delete"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>

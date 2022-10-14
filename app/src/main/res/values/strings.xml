@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">商店</string>
+    <string name="goods_list">商品列表</string>
+    <string name="goods_storage">商品入库</string>
+    <string name="goods_query">商品查询</string>
+    <string name="on_credit">欠赊账</string>
+    <string name="title_activity_goods_detail">商品详情</string>
+    <string name="title_activity_goods_add">商品添加/编辑</string>
+    <string name="title_activity_main">主界面</string>
+    <string name="title_activity_scan_qrcode">扫码</string>
+    <string name="action_settings">设置</string>
+    <string name="goods_detail_goods_no_exist">商品未入库</string>
+    <string name="goods_detail_qrcode_text_des">条形码</string>
+    <string name="goods_detail_goods_name">商品名称</string>
+    <string name="goods_detail_goods_price">￥0.00</string>
+    <string name="goods_detail_goods_price_des">价格</string>
+    <string name="goods_detail_create_time_des">录入时间</string>
+    <string name="goods_detail_unit_des">单位</string>
+    <string name="goods_detail_update_time_des">更新时间</string>
+    <string name="goods_detail_tips">价格仅供参考，实际价格以结算时为准</string>
+    <string name="goods_add_goods_name">商品名称</string>
+    <string name="goods_add_price">商品价格￥</string>
+    <string name="goods_add_unit">单位</string>
+    <string name="goods_add_qrcode_text_des">条形码</string>
+    <string name="goods_add_submit">提交</string>
+    <string name="goods_list_search_bar">搜索</string>
+    <string name="goods_list_item_delete">删除</string>
+    <string name="imgContentDescription">图片内容描述</string>
+</resources>
