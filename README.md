@@ -1,6 +1,6 @@
 # StoreApp
 
-商品管理安卓 `demo` 项目，关联后端 [store-api](https://github.com/NPCDW/store-api) 和 [store-api-vertx](https://github.com/NPCDW/store-api-vertx)
+商品管理安卓 `demo` 项目，关联后端 [store-api](https://github.com/NPCDW/store-api) 和 [store-api-vertx](https://github.com/NPCDW/store-api-vertx) 和  [store-api-rs](https://github.com/NPCDW/store-api-rs)
 
 未完成：
 

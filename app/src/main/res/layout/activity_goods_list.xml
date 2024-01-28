@@ -7,14 +7,10 @@
     android:orientation="vertical"
     tools:context=".GoodsListActivity">
 
-    <com.scwang.smart.refresh.layout.SmartRefreshLayout
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/goods_list_refresh_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
-        <com.scwang.smart.refresh.header.ClassicsHeader
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
 
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
@@ -27,9 +23,6 @@
                 android:layout_height="match_parent" />
         </androidx.core.widget.NestedScrollView>
 
-        <com.scwang.smart.refresh.footer.ClassicsFooter
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+    </androidx.recyclerview.widget.RecyclerView>
 
 </LinearLayout>
